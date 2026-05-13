@@ -10,7 +10,7 @@ body {
   background-color: #0a0a0a;
   color: #fff;
   scroll-behavior: smooth;
-  background-image: url('../assets/images/dark-moody-1.PNG');
+  background-image: url('../assets/images/dark-moody.PNG');
   /* Portrait image (700×871): contain it so it isn't stretched,
      repeat-y tiles it down the page, top-center keeps it anchored */
   background-size: contain;
