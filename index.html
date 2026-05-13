@@ -12,13 +12,21 @@
 
   <nav id="navbar">
     <div class="nav-logo">MontanaStudios</div>
-  <ul class="nav-links">
-    <li><a href="#hero">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#services">Services</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
+
+    <!-- Hamburger button (visible on mobile only) -->
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </nav>
 
   <section id="hero">
@@ -142,8 +150,8 @@
           <a href="https://montanastudio999.pixieset.com" target="_blank">📸 montanastudio999.pixieset.com</a>
         </div>
       </div>
-      <div class="contact-right" action="https://formspree.io/f/xojrbgaz" method="POST" >
-        <form class="contact-right" action="https://formspree.io/f/xojrbgaz" method="POST">
+      <div class="contact-right">
+        <form action="https://formspree.io/f/xojrbgaz" method="POST">
             <input type="text" name="name" placeholder="Your Name" required />
             <input type="email" name="email" placeholder="Your Email" required />
             <textarea name="message" placeholder="Tell me about your event..." rows="5" required></textarea>
